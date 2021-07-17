@@ -1,0 +1,43 @@
+body{
+    background-image: url("tableMountain.jpg");
+    margin: 0;
+    padding: 0;
+    border: 0em;
+    border-radius: 1.2em;
+    }
+
+    .btn1{
+        margin: auto;
+            padding-bottom: 20%;
+            padding-top: 10%;
+            padding-right: 30%;
+            text-align: center;
+
+    }
+        .btn{
+            margin: auto;
+            padding-bottom: 20%;
+            padding-top: 10%;
+            padding-left: 30%;
+
+    }
+    .box{
+        display: flex;
+    }
+    button{
+            background: transparent;
+            color: rgb(219, 245, 238);
+            width: 234px;
+            height: 83px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 19px;
+            border-color: blue;
+            font-weight: 400;
+            border-radius: 55px;
+            letter-spacing: 1px;
+    }
+    button:hover{
+        cursor: pointer;
+        box-shadow: 0 2px 50px 0 greenyellow, 0 20px 100px 0 greenyellow;
+        transition: 2s;
+    }

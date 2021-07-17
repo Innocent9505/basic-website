@@ -1,0 +1,153 @@
+body{
+    background-color: skyblue;
+} 
+
+.myPhoto{
+    background-image: url("tableMountain.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.elizabeth{
+    text-align: center;
+}
+
+.city-text{
+    text-align: center;
+}
+
+.foriegn{
+    text-align: center;
+}
+/*Table*/
+
+.table-c{
+    position: relative;
+    margin-left: 28%;
+    background-position: center;
+}
+
+table{
+    text-align: center;
+    width: 400px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 10px;
+}
+
+@media (max-width: 930px) {
+    .table-c{
+        position: relative;
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 930px){
+.cpic{
+    position: relative;
+    margin-left: 8%;
+
+}
+}
+.jhb{
+    text-align: center;
+}
+
+.flex1 {
+    display: flex;
+ 
+}
+
+.box3{
+    border: auto white;
+    margin-top: 350px;
+    
+}
+
+.box2{
+    border: 2px solid #ebe7e1;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1.2em;
+    width: 390px;
+    height: auto;
+
+
+}
+@media (max-width: 930px){
+    .box3{
+        border: auto;
+        margin: auto;
+        /*height: 250px;
+        width: 200px;*/
+        padding: auto;
+    }
+}
+
+p{
+    text-align: center;
+}
+.myName{
+    color: white;
+}
+
+.box{
+    border: 1px solid #eeece9;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1,4em;
+    margin-left: 5em;
+}
+header{
+    background-color: skyblue;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li, a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:whitesmoke;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: blue;
+}
+
+button{
+    background: transparent;
+    color: rgb(219, 245, 238);
+    width: 150px;
+    height: 50px;
+    border-color: blue;
+    border-radius: 55px;
+    letter-spacing: 1px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 50px 0 greenyellow, 0 20px 100px 0 greenyellow;
+    transition: 2s;
+}
